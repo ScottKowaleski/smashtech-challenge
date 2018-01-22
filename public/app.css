@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+}
+.container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.login {
+    text-align: left;
+    width: 25%;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: auto;
+}
+h3:before {
+    content: '*';
+    color: red;
+}
+.login .hint {
+    font-size: 9px;
+}

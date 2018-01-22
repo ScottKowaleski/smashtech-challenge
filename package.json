@@ -1,0 +1,25 @@
+{
+  "name": "smashtech-app",
+  "version": "1.0.0",
+  "description": "Smashtech coding challenge",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "nodemon server.js -e js,pug",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottKowaleski/smashtech-app.git"
+  },
+  "author": "Scott Kowaleski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottKowaleski/smashtech-app/issues"
+  },
+  "homepage": "https://github.com/ScottKowaleski/smashtech-app#readme"
+}

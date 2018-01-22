@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    style
+      include ../public/app.css
+  body
+    div.container
+      div.login 
+        h1= message
+        form(method='POST' action='/login')
+          h3= name
+          input.form-control(type="text", name="login", placeholder="Name", required autofocus)
+          h3= password 
+          input.form-control(type="password", name="password", placeholder="Password", 
+            required)
+          = " "
+          button(type='submit') Submit
